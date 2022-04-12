@@ -102,7 +102,7 @@ const enemy = new Fighter({
     x: -50,
     y: 0,
   },
-  imageSrc: "https://frsh-prnc.github.io/fightingGame/img/kenji/Idle.png",
+  imageSrc: "https://frsh-prnc.github.io/fightingGame/Idle.png",
   framesMax: 4,
   scale: 2.5,
   offset: {
@@ -111,34 +111,34 @@ const enemy = new Fighter({
   },
   sprites: {
     idle: {
-      imageSrc: "https://frsh-prnc.github.io/fightingGame/img/kenji/Idle.png",
+      imageSrc: "https://frsh-prnc.github.io/fightingGame/Idle.png",
       framesMax: 4,
       image: new Image(),
     },
     run: {
-      imageSrc: "https://frsh-prnc.github.io/fightingGame/img/kenji/Run.png",
+      imageSrc: "https://frsh-prnc.github.io/fightingGame/Run.png",
       framesMax: 8,
     },
     jump: {
-      imageSrc: "https://frsh-prnc.github.io/fightingGame/img/kenji/Jump.png",
+      imageSrc: "https://frsh-prnc.github.io/fightingGame/Jump.png",
       framesMax: 2,
     },
     fall: {
-      imageSrc: "https://frsh-prnc.github.io/fightingGame/img/kenji/Fall.png",
+      imageSrc: "https://frsh-prnc.github.io/fightingGame/Fall.png",
       framesMax: 2,
     },
     attack1: {
       imageSrc:
-        "https://frsh-prnc.github.io/fightingGame/img/kenji/Attack1.png",
+        "https://frsh-prnc.github.io/fightingGame/Attack1.png",
       framesMax: 4,
     },
     takeHit: {
       imageSrc:
-        "https://frsh-prnc.github.io/fightingGame/img/kenji/Take%20hit.png",
+        "https://frsh-prnc.github.io/fightingGame/Take%20hit.png",
       framesMax: 3,
     },
     death: {
-      imageSrc: "https://frsh-prnc.github.io/fightingGame/img/kenji/Death.png",
+      imageSrc: "https://frsh-prnc.github.io/fightingGame/Death.png",
       framesMax: 7,
     },
   },
